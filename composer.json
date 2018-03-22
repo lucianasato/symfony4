@@ -4,14 +4,16 @@
     "require": {
         "php": "^7.1.3",
         "ext-iconv": "*",
+        "sensio/framework-extra-bundle": "^5.1",
         "symfony/console": "^4.0",
         "symfony/flex": "^1.0",
         "symfony/framework-bundle": "^4.0",
         "symfony/lts": "^4@dev",
-        "symfony/yaml": "^4.0"
+        "symfony/phpunit-bridge": "*@dev"
     },
     "require-dev": {
-        "symfony/dotenv": "^4.0"
+        "symfony/dotenv": "^4.0",
+        "symfony/web-server-bundle": "^4.0"
     },
     "config": {
         "preferred-install": {
@@ -52,9 +54,15 @@
     },
     "extra": {
         "symfony": {
-            "id": "",
+            "id": "01C96P940T1Y8DCQXA34470H4E",
             "allow-contrib": false
         },
-        "symfony.id": "01C96H3CBYASMZF9CG0Z8Z2M0T"
+        "symfony.id": "01C96P7YD2N06Z1SJY2T5RHNWD"
+    },
+    "repositories": {
+        "phpunit-bridge": {
+            "type": "path",
+            "url": "/var/www/html/symfony4/vendor/symfony/phpunit-bridge"
+        }
     }
 }
