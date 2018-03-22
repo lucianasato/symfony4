@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ###> symfony/framework-bundle ###
 /.env
 /public/bundles/
@@ -7,3 +8,4 @@
 .idea
 /bin/*
 !bin/console
+/var/cache/*
