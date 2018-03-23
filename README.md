@@ -4,3 +4,4 @@
 - Twig
 - PhpUnit
 - Doctrine
+- Maker
