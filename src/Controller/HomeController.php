@@ -3,8 +3,8 @@
 namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Symfony\Flex\Response;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Routing\Annotation\Route;
 
 class HomeController extends Controller
 {
@@ -13,9 +13,11 @@ class HomeController extends Controller
      *
      * @Route("/", name="index")
      */
-    public function indexAction($type)
+    public function index()
     {
-
+        return $this->render("index.html.twig", [
+            'title' => "Luciana"
+        ]);
     }
 
 }
