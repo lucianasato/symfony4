@@ -3,3 +3,4 @@
 # Dependencies
 - Twig
 - PhpUnit
+- Doctrine
